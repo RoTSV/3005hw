@@ -1,0 +1,127 @@
+
+.wrap{
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    .vert{
+        width: 60px;
+        height: 600px;
+        margin-left: 270px;
+        background: #089108;
+    }
+    .goriz{
+        width: 600px;
+        height: 60px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: 270px;
+        background: #ee3654;
+    }
+    .svetofor_1{
+        position: absolute;
+        top: 190px;
+        left: 150px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        .red{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 5px;
+        }
+        .green_1{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 5px;
+        }
+    }
+    .svetofor_2{
+        position: absolute;
+        top: 150px;
+        right: 200px;
+        border: 1px solid black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .red_1{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 5px; 
+        }
+        .green{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin: 5px; 
+        }
+    }
+    .svetofor_3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+        bottom: 150px;   
+        left: 190px;     
+        border: 1px solid black;
+        .red_1{
+            margin: 5px; 
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            border: 1px solid black;
+        }
+        .green{
+            margin: 5px; 
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            border: 1px solid black;  
+        }
+    }
+    .svetofor_4{
+        position: absolute;
+        bottom: 190px;   
+        right: 160px;     
+        border: 1px solid black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .red{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            margin: 5px;
+            border: 1px solid black;  
+        }
+        .green_1{
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            margin: 5px;
+            border: 1px solid black;   
+        }
+    }
+    .button{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        background-color: #df0024;
+        bottom: 20px;
+        right: 20px;
+        border-radius: 50%; 
+    }
+}

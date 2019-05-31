@@ -1,0 +1,178 @@
+.wrap {
+  position: relative;
+  border: 1px solid black;
+  width: 600px;
+  height: 600px;
+}
+
+.wrap .vert {
+  width: 60px;
+  height: 600px;
+  margin-left: 270px;
+  background: #089108;
+}
+
+.wrap .goriz {
+  width: 600px;
+  height: 60px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: 270px;
+  background: #ee3654;
+}
+
+.wrap .svetofor_1 {
+  position: absolute;
+  top: 190px;
+  left: 150px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap .svetofor_1 .red {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.wrap .svetofor_1 .green_1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.wrap .svetofor_2 {
+  position: absolute;
+  top: 150px;
+  right: 200px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrap .svetofor_2 .red_1 {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.wrap .svetofor_2 .green {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 5px;
+}
+
+.wrap .svetofor_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  bottom: 150px;
+  left: 190px;
+  border: 1px solid black;
+}
+
+.wrap .svetofor_3 .red_1 {
+  margin: 5px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.wrap .svetofor_3 .green {
+  margin: 5px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.wrap .svetofor_4 {
+  position: absolute;
+  bottom: 190px;
+  right: 160px;
+  border: 1px solid black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wrap .svetofor_4 .red {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.wrap .svetofor_4 .green_1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  border: 1px solid black;
+}
+
+.wrap .button {
+  position: absolute;
+  width: 80px;
+  height: 80px;
+  background-color: #df0024;
+  bottom: 20px;
+  right: 20px;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=styles.css.map */
